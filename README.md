@@ -1,0 +1,1 @@
+# cabal-damage-calculator2
