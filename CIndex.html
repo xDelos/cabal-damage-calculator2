@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Dano - Cabal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Dano</h1>
+    <label for="atk">Ataque:</label>
+    <input type="number" id="atk" placeholder="Digite seu ataque">
+
+    <label for="amp">Amp (%):</label>
+    <input type="number" id="amp" placeholder="Digite seu amp">
+
+    <label for="crit">Crítico (%):</label>
+    <input type="number" id="crit" placeholder="Digite seu crítico">
+
+    <button onclick="calcularDano()">Calcular</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
